@@ -22,7 +22,7 @@ h1 {
 }
 
 .verdigris {
-    max-width: 100%;
+    max-width: 19%;
     height: auto;
 }
 
@@ -111,7 +111,7 @@ margin: 2%;
 
 .nyil:hover {
     background-color: #DCE5D2;
-    border-radius: 30%;
+    border-radius: 25px;
     transition: 0.25s ease
 }
 
@@ -141,6 +141,11 @@ margin-top: 2%;
     display: flex;
     flex-direction: column;
 
+}
+
+
+.kontaktok {
+    align-items: baseline;
 }
 
 .about {
@@ -183,11 +188,30 @@ margin-top: 2%;
 @media screen and (max-width: 402px) {
 
     .gomb {
-        font-size: small;
+        font-size: 10px;
+    }
+
+    .navigation {
+        margin-top: 3%;
     }
     
+    .verdigris {
+        max-width: 25%;
+        height: auto;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+
+    .logo {
+        margin-bottom: 1.5%;
+        padding-bottom: 0%;
+    }
+    .bestseller {
+        margin-top: 5%;
+    }
+
     .best {
-    font-size: x-large;
+    font-size: large;
     }
     
     .fade{
@@ -196,13 +220,15 @@ margin-top: 2%;
     }
 
     .leiras {
-        font-size: x-small;
-        width: 60%;
+        font-size: xx-small;
+        width: 70%;
+        height: 70%;
         margin-bottom: 1%;
+        margin-top: 4%;
     }
 
     .about {
-        font-size: smaller;
+        font-size: small;
     }
 
     .alsogomb {
@@ -210,18 +236,52 @@ margin-top: 2%;
     }
 
     .arrow {
-        max-width: 80%;
+        max-width: 60%;
         height: auto;
     }
 
+    
+
     .abtinfo {
        margin-bottom: 2%;
+       display: flex;
+       flex-direction: row;
+       margin-top: 4%;
     }
 
     .nyil {
         display: flex;
         justify-content: center;
     }
+
+    .boltkep {
+        max-width: 100%;
+        height: auto;
+    
+    }
+
+    .oszlopok {
+        width: 70%;
+    }
+    
+    .shop {
+        margin-right: 2%;
+    }
+
+    .kontaktok {
+        padding-right: 7%;
+        padding-top: 5%;
+        width: 130%;
+        margin-right: 7%;
+    }
+
+
+
+
+
+
+
+
 
 }
 
