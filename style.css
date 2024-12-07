@@ -189,7 +189,7 @@ margin-top: 2%;
 @media screen and (max-width: 402px) {
 
     .gomb {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .navigation {
@@ -264,11 +264,7 @@ margin-top: 2%;
     .oszlopok {
         width: 70%;
     }
-
-    .shop {
-        margin-right: 2%;
-    }
-
+    
     .kontaktok {
         padding-right: 7%;
         padding-top: 5%;
