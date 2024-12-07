@@ -175,9 +175,10 @@ margin-top: 2%;
     margin: 10%;
     margin-left: 0%;
     margin-bottom: 2%;
+    width: 110%;
     font-size: small;
-    width: 120%;
     font-weight: 500;
+    padding: 2%;
 }
 
 .alsogomb:hover {
@@ -263,7 +264,7 @@ margin-top: 2%;
     .oszlopok {
         width: 70%;
     }
-    
+
     .shop {
         margin-right: 2%;
     }
@@ -271,7 +272,6 @@ margin-top: 2%;
     .kontaktok {
         padding-right: 7%;
         padding-top: 5%;
-        width: 130%;
         margin-right: 7%;
     }
 
